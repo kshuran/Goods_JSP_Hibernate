@@ -28,7 +28,7 @@
                     List list = gm.listGoods();
                     Iterator i = list.iterator();
                     while (i.hasNext()) {
-                                    Goods product = (Goods) i.next();%>
+                        Goods product = (Goods) i.next();%>
                 <tr>
                     <td><%= product.getGoodId()%></td>
                     <td><%= product.getName()%> </td>
@@ -54,4 +54,6 @@
             </tbody>
         </table>
 
+    </body>
+</html>
 
