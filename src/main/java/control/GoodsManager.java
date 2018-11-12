@@ -6,10 +6,7 @@ import java.util.List;
 import org.hibernate.Session;
 import util.HibernateUtil;
 
-/**
- *
- * @author НКулацкий
- */
+
 public class GoodsManager {
 
     public void createAndStoreGoods(Short goodId, String name, BigDecimal price) {
